@@ -1,0 +1,319 @@
+.bartop {
+    /* background: linear-gradient(to bottom right, #0CA9AC, #07888B); */
+    background: linear-gradient(7.5deg, #0CA9AC, #07888B);
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.bartop p {
+    font-size: 14px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.content {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.bread-crumb {
+    margin-top: 90px;
+}
+
+.bread-crumb p {
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.bread-crumb p span {
+    color: #5BD9D9;
+    font-size: 13px;
+}
+
+.bread-crumb p .divide {
+    color: #FFFFFF;
+    opacity: 0.7;
+    font-size: 14px;
+}
+
+.course-info {
+    display: flex;
+    justify-content: space-between
+}
+
+.course-info .text {
+    margin-top: 20px;
+}
+
+.course-info .text p:first-child {
+    opacity: 0.7;
+}
+
+.course-info .text p:last-child {
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.action {
+    align-self: flex-end;
+    display: flex;
+}
+
+.action div p {
+    text-align: center;
+    line-height: 36px;
+}
+
+.action .price, .action .join {
+    width: 110px;
+    height: 36px;
+}
+
+.action .price {
+    border: none;
+    background-color: #FFFFFF;
+    color: #0CA9AC;
+}
+
+.action .join {
+    border-left: 1px solid #0CA9AC;
+    background-color: #FFFFFF;
+}
+
+.action p {
+    color: #0CA9AC;
+}
+
+.paid .price {
+    border: 1px solid #FF5757;
+    background-color: #FF5757;
+}
+
+.paid .join {
+    border: 1px solid #FF5757;
+}
+
+.paid .price p {
+    color: #FFFFFF;
+}
+
+.paid .join p {
+    color: #FF5757;
+}
+
+
+
+
+
+
+.details {
+    padding: 40px 80px;
+    background-color: #FFFFFF;
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.details p {
+    margin: 0;
+    color: #707070;
+}
+
+.col1, .col2 {
+    width: 600px;
+}
+
+.col1 {
+    margin-right: 80px;
+}
+
+.thumbnail {
+    position: relative;
+}
+
+.thumbnail img.main {
+    width: 600px;
+}
+
+.thumbnail img.play {
+    display: block;
+    position: absolute;
+    top: 146px;
+    left: 282px;
+}
+
+.outlines {
+    padding: 40px 0px;
+}
+
+.outlines .title {
+    font-size: 24px;
+    line-height: 33px;
+    color: #262626;
+    margin-bottom: 20px;
+}
+
+.outline .main {
+    width: 600px;
+    height: 50px;
+    border: 1px solid #D5D5D5;
+    padding: 0px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.outline .main p {
+    color: #262626;
+}
+
+.outline ul {
+    padding: 30px;
+}
+
+.outline li {
+    display: flex;
+    flex-direction: column;
+}
+
+.outline li div {
+    display: flex;
+}
+
+.outline li div img {
+    margin-right: 10px;
+}
+
+.outline li .topic {
+    font-size: 12px;
+    font-weight: 17px;
+    color: #262626;
+}
+
+.outline li .topic span {
+    color: #707070;
+}
+
+.outline li .desc {
+    font-size: 12px;
+    font-weight: 17px;
+    color: #707070;
+    opacity: 0.8;
+    margin-left: 26px;
+}
+
+.closed .main {
+    border: 1px solid #F2F2F2;
+}
+
+.closed .main p {
+    color: #707070;
+}
+
+
+
+
+
+
+
+
+
+.col2 .overview .title {
+    font-size: 24px;
+    line-height: 33px;
+    color: #262626;
+}
+
+.col2 .overview p {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.col2 .counter {
+    margin-top: 30px;
+}
+
+.col2 .counter ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.counter ul li {
+    margin-right: 75px;
+    display: flex;
+    align-items: center;
+}
+
+.counter ul li:last-child {
+    margin-right: 0px;
+}
+
+.counter ul li img {
+    width: 24px;
+    margin-right: 15px;
+}
+
+.counter ul li p {
+    font-size: 16px;
+}
+
+.rating {
+    margin: 30px 0px;
+}
+
+.rating, .rating ul {
+    display: flex;
+    align-items: center;
+}
+
+.rating ul {
+    margin-right: 10px;
+}
+
+.rating p {
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.rating p span {
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+.vendor {
+    display: flex;
+    align-items: center;
+}
+
+.vendor .picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #D5D5D5;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.vendor .picture img {
+    margin-left: -25px;
+}
+
+.vendor .name p:first-child {
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 600;
+    color: #262626;
+}
+
+.vendor .name p:last-child {
+    font-size: 10px;
+    line-height: 14px;
+    text-transform: uppercase;
+}

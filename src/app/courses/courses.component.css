@@ -1,0 +1,196 @@
+.container {
+    padding: 40px 20px;
+}
+
+p {
+    margin: 0;
+    color: #707070;
+}
+
+.categories {
+    display: flex;
+    align-items: center;
+}
+
+.categories img {
+    margin-right: 10px;
+}
+
+.categories p {
+    font-size: 16px;
+    line-height: 22px;
+    color: #707070;
+}
+
+.bread-crumb {
+    margin: 30px 0px;
+}
+
+.bread-crumb p {
+    font-size: 14px;
+    color: #262626;
+}
+
+.bread-crumb p span {
+    font-size: 13px;
+    color: #707070;
+}
+
+.sections {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.sections .title{
+    font-size: 16px;
+    font-weight: 600;
+    color: #262626;
+}
+
+.sections .title span {
+    font-weight: 300;
+}
+
+.top {
+    padding-top: 0px;
+}
+
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.course {
+    width: 220px;
+    position: relative;
+    margin-right: 20px;
+}
+
+.course .image {
+    width: 220px;
+    height: 124px;
+    overflow: hidden;
+}
+
+.course .details {
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.details .title {
+    font-size: 14px;
+    line-height: 19px;
+    color: #262626;
+    margin-bottom: 5px;
+}
+
+.details .vendor {
+    font-size: 10px;
+    line-height: 13px;
+    text-transform: uppercase;
+}
+
+.details ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.details .posts {
+    margin: 10px 0px;
+}
+
+.details .posts li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.details .posts li:last-child {
+    margin-bottom: 0px;
+}
+
+.details .posts li img {
+    margin-right: 5px;
+}
+
+.details .posts li p {
+    font-size: 11px;
+}
+
+.rating {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.details .stars {
+    margin: 0;
+    margin-right: 5px;
+}
+
+.details .stars li {
+    margin-right: 0px;
+}
+
+.details .stars li img {
+    margin: 0;
+}
+
+.rating .number {
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.rating .number span {
+    font-size: 10px;
+    opacity: 0.7;
+}
+
+.course button {
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 17px;
+    background: none;
+    color: #07AFB1;
+    border: 1px solid #07AFB1;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.course button:hover {
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #07AFB1;
+}
+
+.paid .price {
+    background-color: #FF5757;
+    border-radius: 0px 0px 4px 4px;
+    height: 22px;
+    width: 60px;
+    position: absolute;
+    top: 0px;
+    left: 5px;
+}
+
+.paid .price p {
+    font-size: 10px;
+    line-height: 22px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.paid button {
+    border: 1px solid #FF5757;
+    color: #FF5757;
+}
+
+.paid button:hover {
+    background-color: #FF5757;
+}

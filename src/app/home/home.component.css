@@ -1,0 +1,91 @@
+.container, .image-slide {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+p {
+    margin: 0;
+    color: #707070;
+}
+
+.images {
+    position: relative;
+}
+
+.images img {
+    width: 100%;
+}
+
+header {
+    position: absolute;
+    top: 20px;
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    position: absolute;
+    top: 270px;
+    text-align: center;
+    width: 1440px;
+}
+
+form div {
+    margin: 0 auto;
+}
+
+.slide-info .text {
+    margin-bottom: 36px;
+}
+
+.text p:first-child {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 43px;
+    color: #ffffff;
+    text-shadow: 0 3px 6px rgba(0,0,0,0.16);
+}
+
+.text p:last-child {
+    font-size: 18px;
+    line-height: 24px;
+    color: #5BD9D9;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+}
+
+.search-box input {
+    height: 53px;
+    width: 400px;
+    padding: 0;
+    background-color: #F9F9F9;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    font-size: 16px;
+    line-height: 22px;
+    padding-left: 20px;
+    color: #707070;
+    outline: none;
+}
+
+.search-box button {
+    height: 53px;
+    width: 60px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    outline: none;
+    background-color: #F9F9F9;
+}
+
+.search-box button:hover {
+    background-color: #5BD9D9;
+    cursor: pointer;
+}
+
+.courses {
+    padding: 0px 80px;
+}
